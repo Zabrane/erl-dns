@@ -8,10 +8,6 @@
       {metrics, [
         {port, 8082}
       ]},
-      {admin, [
-        {port, 8083},
-        {credentials, {"username", "password"}}
-      ]},
       {pools, [
           {tcp_worker_pool, erldns_worker, [
               {size, 10},
